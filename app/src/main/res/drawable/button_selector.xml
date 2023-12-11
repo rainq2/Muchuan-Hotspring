@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 正常状态 -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="14dp" />
+            <solid android:color="#FFFFFF" />
+            <size android:width="250dp" android:height="250dp" />
+            <stroke android:width="3dp" android:color="#C3C3C3" />
+        </shape>
+    </item>
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="14dp" />
+            <solid android:color="#E2E2E2" /> <!-- 修改按下状态的颜色 -->
+            <size android:width="250dp" android:height="250dp" />
+            <stroke android:width="3dp" android:color="#E2E2E2" /> <!-- 修改按下状态的颜色 -->
+        </shape>
+    </item>
+</selector>
